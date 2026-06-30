@@ -1,0 +1,50 @@
+project:
+  name: active_minute_encoder_discovery
+  version: v0_4
+
+dates:
+  start_date: "2016-08-02"
+  end_date: "2026-06-18"
+
+splits:
+  train:
+    start: "2016-08-02"
+    end: "2021-12-31"
+  val:
+    start: "2022-01-01"
+    end: "2023-12-31"
+  oos:
+    start: "2024-01-01"
+    end: "2026-06-18"
+
+timezone:
+  market: America/New_York
+
+storage:
+  data_root: data
+  parquet_compression: zstd
+  parquet_engine: pyarrow
+  ticker_bucket_count: 128
+
+calendar:
+  regular_open_et: "09:30"
+  regular_close_et: "16:00"
+  early_close_et: "13:00"
+
+sessions:
+  premarket:
+    start_et: "04:00"
+    end_et: "09:30"
+  rth:
+    start_et: "09:30"
+
+paths:
+  reference_root: data/reference
+  bronze_root: data/bronze
+  silver_root: data/silver
+  gold_root: data/gold
+  manifest_root: data/manifests
+  report_root: reports
+
+outputs:
+  trading_calendar: data/reference/trading_calendar_v0.parquet
