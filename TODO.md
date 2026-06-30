@@ -14,7 +14,7 @@ Scope guard:
 
 ## Suggested Next Active Task
 
-Phase 0.3 Final Phase 0 QA
+None. Phase 0 is complete.
 
 ## Active Task: Phase 0.1 Implement Trading Calendar Artifact
 
@@ -122,7 +122,7 @@ Acceptance criteria:
 
 ### Task: Phase 0.3 Final Phase 0 QA
 
-Status: Proposed Active
+Status: GO
 
 Acceptance criteria:
 
