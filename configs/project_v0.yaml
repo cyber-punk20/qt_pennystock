@@ -3,19 +3,19 @@ project:
   version: v0_4
 
 dates:
-  start_date: "2016-08-02"
-  end_date: "2026-06-18"
+  start_date: "2016-08-14"
+  end_date: "2026-06-29"
 
 splits:
   train:
-    start: "2016-08-02"
+    start: "2016-08-14"
     end: "2021-12-31"
   val:
     start: "2022-01-01"
     end: "2023-12-31"
   oos:
     start: "2024-01-01"
-    end: "2026-06-18"
+    end: "2026-06-29"
 
 timezone:
   market: America/New_York

@@ -12,9 +12,13 @@ Scope guard:
 - Do not modify `PROJECT.md` or `PLAN.md`.
 - Treat `PROJECT.md` dates as canonical where existing config or plan text disagrees.
 
+## Suggested Next Active Task
+
+Phase 0.2 Review Calendar Artifact
+
 ## Active Task: Phase 0.1 Implement Trading Calendar Artifact
 
-Status: Active
+Status: GO
 
 ### Goal
 
@@ -105,7 +109,7 @@ reports/phase_00/trading_calendar_qa.md
 
 ### Task: Phase 0.2 Review Calendar Artifact
 
-Status: Backlog
+Status: Proposed Active
 
 Acceptance criteria:
 
